@@ -1,1 +1,3 @@
 # Covid-Predictor
+
+* AI model
