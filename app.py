@@ -25,15 +25,14 @@ def survey():
         q4 = int(q4)
         q5 = int(q5)
         q6 = int(q6)
-        print(q2, q3, q4, q5, q6 , name)
+        # print(q2, q3, q4, q5, q6 , name)
         prediction = m.model(q2,q3,q4,q5,q6)
-        print(type(prediction))
+        # print(type(prediction))
         if prediction > 30:
             return render_template("positive.html" , prediction = int(prediction))
         else:
             return render_template("negative.html" , prediction = int(prediction))
     return render_template("survey.html")
-
 
 
 
