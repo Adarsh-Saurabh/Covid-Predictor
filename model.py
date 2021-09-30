@@ -12,7 +12,6 @@ def model(a,b,c,d,e):
 
     # Model fitting
     model = linear_model.LinearRegression()
-    model.fit(x,y)
 
     # Trying to correct some cofficient values
     # model.coef_[0] = 0.4
