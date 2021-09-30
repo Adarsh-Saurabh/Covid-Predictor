@@ -23,7 +23,7 @@ def model(a,b,c,d,e):
     # Taking input
     modelInput = model.predict([[a,b,c,d,e]])
 
-    return (modelInput * 100 / 2)
+    return (modelInput*100/2)
 
 # if __name__ == "__main__":
 #     a = int(input("Do you suffer from any kind of breathing issues?"))
